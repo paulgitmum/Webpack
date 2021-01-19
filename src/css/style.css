@@ -1,0 +1,143 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.cart img{
+  width: 60px;
+  height: 60px;
+}
+.log-container img{
+    width: 60px;
+    height: 60px;
+  
+  }
+header{
+    display: flex;
+width:90%;
+   margin: auto;
+   height: 10vh;
+   align-items: center;
+}
+nav{
+    
+    flex:2;
+    
+}
+.log-container,.nav-links,.cart{
+    display: flex;
+   
+}
+
+.log-container{
+   
+    flex:1;
+    align-items: center;
+}
+.logo{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav-link{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+.cart{
+
+    flex:1;
+    justify-content: flex-end;
+}
+.presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.cover img{
+height: 60vh;
+/* filter: drop-shadow(0px 5px 3px black); */
+}
+.introduction{
+    flex:1;
+}
+.intro-text h1{
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.intro-text p{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #858772;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.cta{
+    padding: 50px, 0px, 0px, 0px;
+}
+#cta-select{
+    border:2px solid #c36cbb ;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#cta-add{
+    border:none ;
+    background: #c36cbb;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+#cta-toggle{
+    border:none ;
+    background: #c36cbb;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.cover{
+    float: 1px;
+    display: block;
+}
+.back1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    
+}
+.detail-text p{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #858772;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
